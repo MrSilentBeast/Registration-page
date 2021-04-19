@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(218, 215, 211);
+    background-size: cover;
+}
+
+.wrapper {
+
+}
+
+.image_me {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.image_me img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.title {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.registration_box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 30px;
+    background: rgb(190, 226, 157);
+    border: black solid 2px;
+    border-radius: 8px;
+    width: 430px;
+    padding: 10px 10px 10px 10px;
+}
+
+
+.title_input_text {
+    text-align: center;
+}
+
+.title_input_password {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.registration_box p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title_input_text_box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.title_input_password_box {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.email_input {
+    width: 250px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    border: black solid 1px;
+    border-radius: 8px;
+}
+
+.password_input {
+    width: 250px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+    border: black solid 1px;
+    border-radius: 8px;
+}
+
+.check_one {
+    margin-top: 10px;
+}
+
+.check_two {
+    margin-top: 10px;
+}
+
+.submit_form_box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.submit_form {
+    background: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+}
