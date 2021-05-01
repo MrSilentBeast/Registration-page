@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(218, 215, 211);
+    background-color: white;
     background-size: cover;
 }
 
@@ -16,6 +16,7 @@ body {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    border: 1px solid black;
 }
 
 .title {
@@ -31,10 +32,11 @@ body {
     margin: 0 auto;
     align-items: center;
     margin-top: 30px;
-    background: rgb(190, 226, 157);
+    background: rgb(22, 21, 21);
     border: black solid 2px;
     border-radius: 8px;
     width: 430px;
+    height: 300px;
     padding: 10px 10px 10px 10px;
 }
 
@@ -49,8 +51,9 @@ body {
 }
 
 .registration_box p {
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 .title_input_text_box {
@@ -69,8 +72,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding-left: 5px;
-    border: black solid 1px;
+    border: white solid 1px;
     border-radius: 8px;
+    background: black;
+    color: white;
+}
+
+.email_input::placeholder {
+    color: #d2d2d2;
+    opacity: .7;
 }
 
 .password_input {
@@ -79,8 +89,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     padding-left: 5px;
-    border: black solid 1px;
+    border: white solid 1px;
     border-radius: 8px;
+    background: black;
+    color: white;
+}
+
+.password_input::placeholder {
+    color: #d2d2d2;
+    opacity: .7;
 }
 
 .check_one {
@@ -96,11 +113,27 @@ body {
     margin-top: 15px;
 }
 
+
+
 .submit_form {
     background: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bolder;
     text-transform: uppercase;
     padding: 10px 15px 10px 15px;
     border-radius: 10px;
+}
+
+.submit_form:hover {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border-radius: 10px;
+    border: 1px solid white;
+    color: white;
+    transition: 0.5s;
 }
